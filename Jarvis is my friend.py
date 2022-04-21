@@ -106,8 +106,8 @@ while True:
 
         from twilio.rest import Client
 
-        account_sid = 'AC31671510b4e99bf174e89e19cfa1d2d8'
-        auth_token = '893e9509a3a299fffc34a349b4b8d533'
+        account_sid = 'your id'
+        auth_token = 'your token'
         client = Client(account_sid, auth_token)
 
         message = client.messages \
@@ -227,7 +227,7 @@ while True:
         # base URL
         BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
         CITY=query.replace("tell me weather in","")
-        API_KEY = "2320b74a65a9dd1efd76ba5fabefb653"
+        API_KEY = "your api key"
         # upadting the URL
         URL = BASE_URL + "q=" + CITY + "&appid=" + API_KEY
         # HTTP request
